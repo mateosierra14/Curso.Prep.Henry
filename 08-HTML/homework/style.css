@@ -10,8 +10,20 @@ img {
     background-color: salmon;
     padding: 50px;
     border: 10px solid black;
+    margin: 0 auto;
 }
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+body {
+    background-image: url(https://astelus.com/wp-content/viajes/Plato-de-milanesa-con-papas-ti%CC%81pico-de-Argentina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 850px;
+    width: 1850px;
+}
+.divClass {
+    text-align: center;
 }
