@@ -15,9 +15,9 @@ function deObjetoAmatriz(objeto){
  
   var array = [];
 
-  for (clave in objeto) {
+  for (var prop in objeto) {
 
-    array.push([clave,objeto[clave]])
+    array.push([prop,objeto[prop]])
 
   }
 
